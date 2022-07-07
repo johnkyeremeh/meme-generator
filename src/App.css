@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  margin: auto;
+  padding: 0;
+}
+
+.App{
+  margin: auto;
+ width: 550px; 
+ height: 550px;
+}
+
+main{
+  padding: 36px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+}
+
+.logo{
+  width: 31.31px; 
+  height: 26.22px;
+}
+
+.left-nav{
+  display: flex;
+  margin: 21px;
+}
+
+.right-nav{
+  width: 189px;
+height: 14px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+}
+
+.right-nav p{
+margin-top: 11px;
+padding: 15px;
+}
+
+
+#title{
+  color: white;
+  width: 140.79px;
+  height: 24px;
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  margin:0px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 10px;
+}
+
+.form--button {
+  display: block;
+
+  width: 100%;
+  grid-column: 1 / -1;
+}
+
+
+.meme--image{
+  margin: 10px;
+  max-width: 100%;
+}
